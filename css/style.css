@@ -105,18 +105,15 @@ html{
     margin-bottom: 1rem;
 }
 
-
-
-
-
 .cards_container {
     display: flex;
     gap: 1rem; /* Espacio entre las tarjetas */
     justify-content: space-around; /* Distribuir las tarjetas equitativamente */
+    flex-direction: row;
     padding: 20px;
   }
 
-  .card-main{
+  .card-main {
     position: relative;
     width: 46%; /* Ancho de la tarjeta */
     height: 56rem;
@@ -125,6 +122,13 @@ html{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     color: white;
+}
+
+
+  .card-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
   }
   
@@ -148,8 +152,8 @@ html{
   
   .titulo-main {
     position: absolute;
-    bottom: 15rem;
-    left: 4rem;
+    bottom: 20rem;
+    left: 3rem;
     font-size: 2.4rem;
     color: #f7b527;
   }
@@ -170,7 +174,7 @@ html{
   }
   .card-main p{
     width: 90%;
-    position: absolute;
+    position: absolute; 
     font-size: 2rem;
     bottom: 4rem;
     left: 20px;
@@ -216,6 +220,94 @@ html{
     background-size: cover;
     background-position: center;
   }
+
+/*Solutions*/
+
+.plans-section-item{
+  margin: 0 auto;
+  margin-top: 11.6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  color: var(--black);
+}
+
+.plans-section-item h3{
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.plans-section-item p{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.solutions-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.cards-container-solutions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-2{
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 5%, rgba(0,0,0,0.7) 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #FEFA65;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.card-content p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-button {
+  background-color: #fdbb4c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-button:hover {
+  background-color: #e0a837;
+}
   
 /* Plans section */
 .plans-section{
@@ -227,24 +319,7 @@ html{
     margin-top: 2rem;
 }
 
-.plans-section-item{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 75%;
-    align-items: center;
-    color: var(--black);
-}
 
-.plans-section-item h3{
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-}
-
-.plans-section-item p{
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-}
 
 .btn-container{
     display: flex;
@@ -288,23 +363,36 @@ html{
 
 .container-plans{
   width: 100%;
-  height: 469px;
-  top: 420px;
-  border-radius: 30px;
+  height: 46.9rem;
+  /* top: 42rem; */
+  border-radius: 3rem;
   background-color: var(--orange);
-  z-index: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center;
+  flex-direction: row; */
   gap: 2rem;
   margin-top: -2rem;
 }
 
-
-.image-container img{
-  width: 444px;
-  height: 374px;
-  top: 468px;
-  left: 31px;
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.text-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.image-container img {
+  width: 85%;
+  height: 85%;
+}
+

@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-:root{
-    --main-color: #1d1c18;
-    --second-color: #ffffff;
+
+:root {
+    --yellow: #fefa65;
+    --green: #00a726;
+    --pink: #e7499a;
+    --blue: #0191d7;
+    --orange: #f6923b;
+    --purple: #ad78d5;
+    --black: #333333;
 }
 
 *{
@@ -18,3 +24,187 @@ html{
 
 
 
+/* Navbar */
+.navbar {
+    background-color: var(--black);
+    padding: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 1rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.menu-item a:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+
+/* Intro styles */
+
+
+.intro-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+}
+
+.intro-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+
+
+
+
+/* About us */
+
+.info-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.info-container h2 {
+    font-size: 2.4rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.info-container p {
+    font-size: 1.8rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.cards_container {
+    display: flex;
+    gap: 1rem; /* Espacio entre las tarjetas */
+    justify-content: space-around; /* Distribuir las tarjetas equitativamente */
+    padding: 20px;
+  }
+
+  .card-main{
+    position: relative;
+    width: 46%; /* Ancho de la tarjeta */
+    height: 56rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+
+  }
+  
+  .card {
+    position: relative;
+    width: 15%; /* Ancho de la tarjeta */
+    height: 56rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: white;
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .titulo-main {
+    position: absolute;
+    bottom: 15rem;
+    left: 4rem;
+    font-size: 2.4rem;
+    color: #f7b527;
+  }
+
+  .titulo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  .backgoud-black{
+    background-color: var(--black);
+    display: block;
+    width: 100%;
+  }
+  .card-main p{
+    width: 90%;
+    position: absolute;
+    font-size: 2rem;
+    bottom: 4rem;
+    left: 20px;
+    margin: 0;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .card p {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 10px;
+    left: 20px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card:nth-child(1) {
+    background-image: url('your-image-path-1.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card:nth-child(2) {
+    background-image: url('your-image-path-2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card:nth-child(3) {
+    background-image: url('your-image-path-3.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card:nth-child(4) {
+    background-image: url('your-image-path-4.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card:nth-child(5) {
+    background-image: url('your-image-path-5.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  

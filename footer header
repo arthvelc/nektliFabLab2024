@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+   <body>
+    <nav class="navbar bg-dark border-bottom " data-bs-theme="dark"> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">3Bee 
+                                               for Business     
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Estrategia de Biodiversidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios de RSE</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Socios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Empresa</a></li>
+                      <li><a class="dropdown-item" href="#">Recursos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Empresa</a>
+                    </li>
+                    <li> Mi Oasis</li>
+                </ul>
+                <div class="search-container">
+
+                      <input class="form-control me-2" type="search" placeholder="ES" aria-label="Search">
+                      <button class="btn btn-outline-warning" type="submit">Buscar</button> 
+                  
+                  </div>
+              </div>
+            </div>
+          </nav>
+        </nav>
+
+        
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <section>
+            <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        
+
+              <div class="card " style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+       
+
+              <div class="card " style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </section>
+
+        <button class="Leer más"> 
+            Lee más</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <hr>
+        <div class="container text- center">
+            <div class="row align-items-start">
+              <div class="col">
+                Biodervisidad y Regeneración
+                <li>Apadrina y Crea tu Oasis</li> 
+                <li>Biodeversidad para tu Negocio </li>
+                <li>Sobre Nosotros</li>
+              </div>
+              <div class="col">
+                Conviertete en Socio
+                <li>Apicultor</li>
+                <li>Cultivador</li> 
+                <li>Revendedor</li>
+                <li>Escuela</li>
+              </div>
+              <div class="col">
+                Recursos
+                <li>Devoluviones y Rembolsos</li>
+                <li>Politica de privacidad</li>
+                <li>Politica de Cookies</li>
+                <li>Términos y Condiciones empresas</li>
+                <li>Protocolo Oasis 3Bee</li>
+              </div>
+                <div class="container text- center">
+                    <div class="row align-items-start">
+                      <div class="col">
+                        Suscríbe a la Newsletter de 3Bee
+                        <li><Button>Correo electronico</Button></li>
+                        <Button> </Button> Acepto la politica de privacidad
+                        <li>Síguenos</li>
+                      </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

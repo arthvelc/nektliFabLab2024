@@ -9,6 +9,7 @@
     --orange: #f6923b;
     --purple: #ad78d5;
     --black: #333333;
+    --orange: #ffb000;
 }
 
 *{
@@ -22,59 +23,67 @@ html{
     font-family: 'Inter', sans-serif;
 }
 
+.main-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
 
 
 /* Navbar */
-.navbar {
-    background-color: var(--black);
-    padding: 1rem;
+.nav {
+  background-color: var(--black);
+  padding: 1rem;
 }
 
-.menu {
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.nav-logo img {
+  width: 10rem;
+  height: auto;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.nav-link:hover {
+  color: var(--yellow);
+  object-fit: cover;
+}
+
+/*Intro section*/
+.intro-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.menu-list {
-    list-style: none;
-    display: flex;
-}
-
-.menu-item {
-    margin-right: 1rem;
-}
-
-.menu-item a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.8rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-}
-
-.menu-item a:hover {
-    background-color: var(--yellow);
-    color: var(--black);
-}
-
-
-/* Intro styles */
-
-
-.intro-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--black);
-}
-
-.intro-section img{
+.intro-section img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;}
-
-
+    height: auto;
+}
 
 
 /* About us */
@@ -235,4 +244,67 @@ html{
 .plans-section-item p{
     font-size: 2.5rem;
     margin-bottom: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 18rem;
+}
+
+.plans-buttons{
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    width: 18rem;
+    height: 6.8rem;
+    border-radius: 2.5rem;
+    background-color: var(--orange);
+    border:none;
+}
+
+.plans-btn-container{
+  width: 100%;
+  margin-left: 12rem;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.btn{
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    width: 18rem;
+    height: 6.8rem;
+    border-radius: 2.5rem;
+    background-color: var(--orange);
+    border:none;
+    margin-right: 2rem;
+}
+
+
+.container-plans{
+  width: 100%;
+  height: 469px;
+  top: 420px;
+  border-radius: 30px;
+  background-color: var(--orange);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: -2rem;
+}
+
+
+.image-container img{
+  width: 444px;
+  height: 374px;
+  top: 468px;
+  left: 31px;
 }

@@ -380,14 +380,25 @@ html{
     justify-content: center;
     align-items: center;
     gap: 5.5rem;
-    margin-bottom: 18rem;
+    margin-bottom: 9rem;
 }
 
-.plans-buttons{
-    color: var(--black);
-    background-color: white;
-    border: .5rem solid var(--orange);
-    font-weight: 700;
+#garden-btn{
+  color: white;
+  border: .5rem solid var(--green);
+  background-color: var(--green);
+  font-weight: 700;
+  font-size: 2.5rem;
+  width: 18rem;
+  height: 6.8rem;
+  border-radius: 2.5rem;
+}
+
+#hive-btn{
+  color: var(--black);
+  background-color: white;
+  border: .5rem solid var(--orange);
+  font-weight: 700;
   font-size: 2.5rem;
   width: 18rem;
   height: 6.8rem;
@@ -410,12 +421,25 @@ html{
   border:none;
 }
 
-.plans-btn-container{
+.plans-btn-container-garden{
+  display: flex;
   width: 100%;
   margin-left: 12rem;
-  display: flex;
   justify-content: flex-start;
+}
+
+.plans-btn-container-hiven{
+  display:none;
+  width: 100%;
+  margin-right: 12rem;
   
+}
+
+.plans-btn-container-hiven button{
+  background-color: var(--orange);
+  color: white;
+  border: none;
+  margin-left: 12rem;
 }
 
 .tabs{
@@ -554,12 +578,11 @@ html{
 .social-impact-content{
   display: flex;
   justify-content: center;
-  
   align-items: center;
   flex-direction: column;
   color: white;
   margin: 0 auto;
-  padding: 4rem;
+  padding: 12rem;
   width: 50%;
 }
 
@@ -571,11 +594,12 @@ html{
   margin-top: 4rem;
 }
 
-.social-impact-content p{
-  font-size: 1.5rem;
+.social-impact-description{
+  font-size: 2rem;
   color: white;
   margin: 0 auto;
-  margin-bottom: 4rem;
+  font-weight: lighter;
+  text-align: justify;
 }
 
 .social-impact-image{
@@ -591,6 +615,9 @@ html{
   border-radius: 1.5rem;
   background-color: white;
 }
+
+/*DashBoard*/
+
 
 
 /* scroll-image */
@@ -629,7 +656,6 @@ html{
   margin-bottom: 1rem;
   margin: 0 auto;
   padding: 4rem;
-  color: ;
 }
 
 .main-content .text {

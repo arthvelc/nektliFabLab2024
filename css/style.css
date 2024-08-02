@@ -333,8 +333,11 @@ html{
   border-radius: 5px;
   cursor: pointer;
   bottom: 1rem;
-  margin-top: 10px;
+  margin-top: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 1.5rem;
+
 }
 
 .card-button:hover {
@@ -403,7 +406,7 @@ html{
   width: 18rem;
   height: 6.8rem;
   border-radius: 2.5rem;
-  background-color: var(--orange);
+  background-color: var(--green);
   border:none;
 }
 
@@ -439,7 +442,7 @@ html{
     width: 18rem;
     height: 8.3rem;
     border-radius: 2.5rem;
-    background-color: var(--orange);
+    background-color: var(--green);
     border:none;
     margin-right: 1rem;
 }
@@ -451,7 +454,7 @@ html{
   height: 46.9rem;
   /* top: 42rem; */
   border-radius: 3rem;
-  background-color: var(--orange);
+  background-color: var(--green);
   display: flex;
   /* justify-content: center; */
   /* align-items: center;
@@ -498,7 +501,7 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px solid var(--green);
+  border: 2px solid var(--orange);
   border-radius: 1rem;
   gap: .5rem;
   font-size: 2rem;
@@ -508,7 +511,7 @@ html{
 
 .btn-place{
   padding: 1rem;
-  background-color: var(--green);
+  background-color: var(--orange);
   color: white;
   border-radius: 1.5rem;
   font-size: 1.5rem;
@@ -544,7 +547,7 @@ html{
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #0191d7;
+  background-image: url("../img/Frame\ 4.png");
   margin-top: 10.6rem;
 }
 

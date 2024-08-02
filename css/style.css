@@ -274,8 +274,8 @@ html{
 
 
 .cards-container-solutions{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   flex-direction: row;
   gap: 2rem;
@@ -283,35 +283,45 @@ html{
 }
 
 .card-2{
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 5%, rgba(0,0,0,0.7) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 1%, rgba(0,0,0,0.7) 80%);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   overflow: hidden;
-  width: 300px;
   max-width: 100%;
   text-align: center;
   color: white;
   padding: 20px;
+  height: 100%;
   background-color: #FEFA65;
 }
 
 .card-image {
   width: 100%;
-  border-radius: 10px;
+  height: 24rem;
+  border-radius: 1rem;
+  object-fit: cover;
 }
 
 .card-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 20px;
 }
 
 .card-content h2 {
-  font-size: 18px;
+  font-size: 2.5rem;
   margin: 15px 0;
+  text-align:center;
+  height: 6rem;
 }
 
 .card-content p {
-  font-size: 14px;
+  font-size: 1.5rem;
   line-height: 1.5;
+  text-align: justify;
+  height: 17rem;
+  align-self: center;
 }
 
 .card-button {
@@ -322,6 +332,7 @@ html{
   text-transform: uppercase;
   border-radius: 5px;
   cursor: pointer;
+  bottom: 1rem;
   margin-top: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

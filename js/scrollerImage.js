@@ -9,6 +9,7 @@ slider.addEventListener('mousedown', function()  {
     });
 });
 
+
 function moveSlider(e) {
     const rect = container.getBoundingClientRect();
     const position = e.clientX - rect.left;

@@ -356,20 +356,22 @@ html{
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: justify;
-  height: 17rem;
+  height: 20rem;
   align-self: center;
 }
 
 .card-button {
   background-color: #fdbb4c;
-  color: white;
+  color: var(--black);
+  font-weight: bold;
   border: none;
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   text-transform: uppercase;
   border-radius: 5px;
   cursor: pointer;
   bottom: 1rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   font-size: 1.5rem;

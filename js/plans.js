@@ -174,7 +174,6 @@ familyBtn.addEventListener('click', function() {
   </div>
     `;
 
-   
 
 });
 

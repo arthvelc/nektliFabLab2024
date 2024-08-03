@@ -631,6 +631,13 @@ html{
   width: 50%;
 }
 
+.social-impact-container-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .social-impact-title{
   font-size: 3.5rem;
   color: white;
@@ -733,7 +740,7 @@ html{
 .container-scroll-imge {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 50vh;
   overflow: hidden;
 }
 
@@ -748,11 +755,11 @@ html{
 }
 
 .image-left {
-  background-image: url('../img/backgoud.jpeg'); /* Cambia a la URL de tu imagen izquierda */
+  background-image: url('../img/imagencd1.png'); /* Cambia a la URL de tu imagen izquierda */
 }
 
 .image-right {
-  background-image: url('../img/frame.jpeg'); /* Cambia a la URL de tu imagen derecha */
+  background-image: url('../img/imagencd2.png'); /* Cambia a la URL de tu imagen derecha */
   width: 50%;
   right: 0;
   left: auto;
@@ -781,7 +788,7 @@ html{
   top: 0;
   bottom: 0;
   width: 10px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, .8);
   cursor: ew-resize;
   left: 50%;
   transform: translateX(-50%);

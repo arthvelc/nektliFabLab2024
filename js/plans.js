@@ -105,7 +105,7 @@ schoolBtn.addEventListener('click', function() {
                 <button class="btn-place">4 Years</button>
               </div>
   
-              <button class="adopt-btn">Adopt whith $44</button>
+              <button class="adopt-btn">Adopt with $44</button>
               
             </div>
     `;

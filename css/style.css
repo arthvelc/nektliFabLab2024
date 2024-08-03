@@ -47,9 +47,20 @@ html{
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 7rem;
+}
+
+.nav-menu{
+  display: flex;
+  width: 100%;
+  margin-left: 4rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
 }
 
 

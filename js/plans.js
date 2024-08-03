@@ -69,7 +69,7 @@ schoolBtn.addEventListener('click', function() {
     planContent.innerHTML = `
 
     <div class="image-container">
-              <img src="./img/bee.png" alt="">
+              <img src="./img/image.png" alt="">
             </div>
 
             <div class="text-container">

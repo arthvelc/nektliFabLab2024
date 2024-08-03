@@ -69,7 +69,7 @@ schoolBtn.addEventListener('click', function() {
     planContent.innerHTML = `
 
     <div class="image-container">
-              <img src="./img/image.png" alt="">
+              <img src="./img/Escuela.png" alt="">
             </div>
 
             <div class="text-container">
@@ -128,7 +128,7 @@ familyBtn.addEventListener('click', function() {
 
     planContent.innerHTML = `
     <div class="image-container">
-    <img src="./img/bee.png" alt="">
+    <img src="./img/Escuela.png" alt="">
   </div>
 
   <div class="text-container">
@@ -189,7 +189,7 @@ companyBtn.addEventListener('click', function() {
     planContent.innerHTML = `
 
     <div class="image-container">
-    <img src="./img/bee.png" alt="">
+    <img src="./img/Colectivo.png" alt="">
   </div>
 
   <div class="text-container">
@@ -275,7 +275,7 @@ collectiveBtn.addEventListener('click', function() {
 
     planContent.innerHTML = `
     <div class="image-container">
-    <img src="./img/bee.png" alt="">
+    <img src="./img/Colectivo.png" alt="">
   </div>
 
   <div class="text-container">

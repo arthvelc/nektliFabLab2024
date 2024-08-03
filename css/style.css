@@ -307,16 +307,16 @@ html{
 }
 
 .card-2{
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 1%, rgba(0,0,0,0.8) 80%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 1%, rgba(0,0,0,0.8) 70%);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   overflow: hidden;
   max-width: 100%;
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 1rem;
+  margin-bottom: 5rem;
   height: 100%;
-
 }
 
 #card1{
@@ -361,25 +361,26 @@ html{
 }
 
 .card-button {
-  background-color: #fdbb4c;
   color: var(--black);
   font-weight: bold;
   border: none;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 1rem;
   cursor: pointer;
-  bottom: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   font-size: 1.5rem;
+  background-color: #fdbb4c;
 
 }
 
 .card-button:hover {
   background-color: #e0a837;
+  transform: scale(1.1);
+  transition-duration: 500ms;
 }
   
 /* Plans section */
@@ -463,7 +464,7 @@ html{
 .plans-btn-container-garden{
   display: flex;
   width: 100%;
-  margin-left: 12rem;
+  margin-left: 7rem;
   justify-content: flex-start;
 }
 
@@ -649,6 +650,10 @@ html{
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+
+.social-impact-container-img img{
+  width: 100%;
 }
 
 .social-impact-title{

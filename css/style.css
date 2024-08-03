@@ -855,6 +855,7 @@ html{
   width: 13rem;
   margin: 0 auto;
   margin-top: 3rem;
+  margin-bottom: 1rem;
  }
  
  .solutions-btn::before {

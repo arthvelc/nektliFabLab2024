@@ -798,10 +798,11 @@ html{
 /* Footer */
 
 .footer{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   background-color: var(--black);
-  color: white;
-  padding: 4rem;
+  margin-top: 6rem;
+}
+
+.footer img{
+  width: 100%;
 }
 

@@ -746,6 +746,14 @@ html{
     text-align: justify;
     margin: 2rem 10rem;
 }
+.frame-dash{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  margin-top: 4rem;
+}
 
 /* How much we need?*/
 
